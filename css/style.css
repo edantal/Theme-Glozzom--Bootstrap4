@@ -1,0 +1,81 @@
+body {
+  overflow-x: hidden; }
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important; }
+.navbar .nav-item.active {
+  border-left: 3px solid #444444; }
+
+.carousel-item {
+  height: 450px;
+  background-size: cover; }
+.carousel-image-1 {
+  background-image: url("../images/image1.jpg"); }
+.carousel-image-2 {
+  background-image: url("../images/image2.jpg"); }
+.carousel-image-3 {
+  background-image: url("../images/image3.jpg"); }
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background-image: url("../images/lights.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #000000; }
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background-image: url("../images/media.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #000000; }
+  #video-play a {
+    color: #ffffff;
+    text-decoration: none;
+    outline: none; }
+    #video-play a :hover {
+      text-decoration: none; }
+
+#page-footer {
+  background-color: #000000;
+  color: #ffffff; }
+
+#page-header {
+  height: 200px;
+  background-image: url("../images/image1.jpg");
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+  padding-top: 50px; }
+
+.about-img {
+  margin-top: -50px; }
+
+#faq .card {
+  border: #444444; }
+  #faq .card-header {
+    background-color: #333333; }
+  #faq .card-body {
+    background-color: #333333; }
+#faq a {
+  color: #ffffff;
+  text-decoration: none; }
